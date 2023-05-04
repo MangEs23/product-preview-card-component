@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(30, 38%, 92%);
+}
+
+.container {
+    margin: 120px auto;
+}
+
+.row {
+    margin: auto 30%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.column {
+    float: left;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.one img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.two {
+    background-color: wheat;
+    height: 200px;
+}
+
+.content {
+    margin: 20px 20px;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+}
+
+h2 {
+    color: hsl(158, 36%, 37%);
+}
+
+h6 {
+    text-decoration: line-through;
+}
+
+.prices {
+    margin: -15px auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 70px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: hsl(158, 36%, 37%); 
+    color: rgb(255, 255, 255);
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
